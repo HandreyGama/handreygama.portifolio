@@ -351,6 +351,7 @@ section{
         
         
     }
+    
     .nav-links{
         display: flex;
         flex-direction: row;
@@ -364,6 +365,8 @@ section{
     html{
         overflow-x: hidden;    
     }
+   
+ 
     .card{
         color: white;
         background: rgba(255,255,255,0.03);
@@ -394,6 +397,10 @@ section{
     .card p{
         font-size: 1rem;
     }
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+    }
     .projetos-container{
         display: flex;
         flex-direction: column;
@@ -401,6 +408,10 @@ section{
         justify-content: center;
         gap:2rem;
         margin-top: 2rem;
+    }
+    .tecnologias{
+        display: flex;
+        flex-direction: column;
     }
     .projetos{
         display: flex;
